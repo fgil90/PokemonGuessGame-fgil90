@@ -1,0 +1,71 @@
+html, body {
+	width: 100%;
+	margin: 0px;
+}
+
+body{
+    font-family: 'Dela Gothic One', cursive;
+    background-image: url("../img/bg.png");
+}
+
+main{
+    /* background: rgb(230, 240, 211); */
+
+    width:450px;
+    margin: 100px auto 20px;
+    height: auto;
+}
+
+footer{
+    /* background: rgb(196, 245, 196); */
+
+    height:30px;
+    margin: 20px auto 0;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+.main-title{
+    /* background: lightslategray; */
+
+    width:450px;
+    margin:auto;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 10px black;
+}
+
+.pokemon-image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering:pixelated;
+    width:100%;
+    height:auto;
+}
+
+.image-container{
+    display: block;
+    position: relative;
+    width:90%;
+    height:auto;
+    margin:40px auto;
+}
+
+#answer-input{
+    display: block;
+
+    width: 90%;
+    font-size: 1.2rem;
+    margin: auto;  
+}
+
+#submit-button{
+    display: block;
+    width:70px;
+    height:35px;
+    margin-top: 20px;
+    margin:20px auto;
+}
+
