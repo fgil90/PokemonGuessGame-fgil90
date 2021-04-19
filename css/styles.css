@@ -1,71 +1,63 @@
-html, body {
-	width: 100%;
-	margin: 0px;
-}
 
-body{
-    font-family: 'Dela Gothic One', cursive;
-    background-image: url("../img/bg.png");
+html, body{
+    width:100%;
+    height: auto;
+    background: url("../img/bg.png");
 }
 
 main{
-    /* background: rgb(230, 240, 211); */
-
-    width:450px;
-    margin: 100px auto 20px;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:700px;
 }
 
-footer{
-    /* background: rgb(196, 245, 196); */
-
-    height:30px;
-    margin: 20px auto 0;
-    text-align: center;
-    text-shadow: 2px 2px gray;
-}
-
-.main-title{
-    /* background: lightslategray; */
-
-    width:450px;
-    margin:auto;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
+main h1{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 1000;
+    width:320px;
     color: yellow;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+    text-align: center;
 }
 
 .pokemon-image{
     background-repeat: no-repeat;
     background-size: contain;
     image-rendering:pixelated;
-    width:100%;
-    height:auto;
+    width:320px;
 }
 
-.image-container{
+form{
+    display: flex;
+    height:40px;
+    width: 320px;
+}
+form input{
+    flex-grow: 1;
+}
+
+footer{
     display: block;
-    position: relative;
-    width:90%;
-    height:auto;
-    margin:40px auto;
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    font-weight: 500;
 }
 
-#answer-input{
-    display: block;
 
-    width: 90%;
-    font-size: 1.2rem;
-    margin: auto;  
-}
 
-#submit-button{
-    display: block;
-    width:70px;
-    height:35px;
-    margin-top: 20px;
-    margin:20px auto;
-}
+
+
+
+
+
+
+
+
+
+
 

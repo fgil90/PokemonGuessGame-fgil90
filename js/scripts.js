@@ -16,8 +16,8 @@ function verifyPokemon(event) {
     event.preventDefault();
 
     if (answerText.toUpperCase() == table[r - 1].toUpperCase()) {
-        console.log("RIGHT");
+        alert("RIGHT");
     } else {
-        console.log("WRONG");
+        alert("WRONG");
     }
 }

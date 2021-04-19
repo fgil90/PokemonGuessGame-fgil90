@@ -1,31 +1,12 @@
-@media (max-width:450px) {
+@media (max-width:425px) {
 
-    main {
-        width: 100%;
-        height: auto;
-        margin: 20px 0;
+    main{
+        height: 500px;
     }
-    .main-title {
-        font-size: 3.5rem;
-        width:100%;
-        margin: 20px auto 0;
-        text-align: center;
+
+    main h1{
+        font-size: 40;
+        margin-top: 20px;
     }
-    .image-container {
-        display: block;
-        margin: 30px auto;
-        display: block;
-        width: 90%;
-        height: auto;
-        margin: 30px auto;
-    }
-    #answer-input {
-        width: 90%;
-        margin: 0 auto;
-    }
-    footer {
-        display: block;
-        position: relative;
-        margin: 10px auto;
-    }
+    
 }
